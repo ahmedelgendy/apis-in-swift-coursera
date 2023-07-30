@@ -26,3 +26,7 @@ extension LoginRequest: NetworkRequest {
     var encodingType: EncodingType { .json }
     var authType: AuthType { .none }
 }
+
+struct LoginResponse: Decodable {
+    let token: String
+}
