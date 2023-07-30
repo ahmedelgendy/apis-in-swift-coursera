@@ -24,7 +24,3 @@ class AuthenticationRepository {
         _ = tokenManager.saveToken(token.token)
     }
 }
-
-struct LoginResponse: Decodable {
-    let token: String
-}
