@@ -23,6 +23,7 @@
 		AFAA69572A7678BF003A6E97 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA69562A7678BF003A6E97 /* TokenManager.swift */; };
 		AFAA695B2A7687DB003A6E97 /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA695A2A7687DB003A6E97 /* AlamofireRequest.swift */; };
 		AFAA695D2A76C7AA003A6E97 /* UpdateProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA695C2A76C7AA003A6E97 /* UpdateProductRequest.swift */; };
+		AFAA69622A77FAED003A6E97 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA69612A77FAED003A6E97 /* NetworkConstants.swift */; };
 		AFBD94332A7177B10046A6FB /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD94322A7177B10046A6FB /* HTTPClient.swift */; };
 		AFBD94372A71839E0046A6FB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AFBD94362A71839E0046A6FB /* Alamofire */; };
 		AFBD94392A71840F0046A6FB /* AlamofireHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD94382A71840F0046A6FB /* AlamofireHTTPClient.swift */; };
@@ -48,6 +49,7 @@
 		AFAA69562A7678BF003A6E97 /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
 		AFAA695A2A7687DB003A6E97 /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
 		AFAA695C2A76C7AA003A6E97 /* UpdateProductRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProductRequest.swift; sourceTree = "<group>"; };
+		AFAA69612A77FAED003A6E97 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		AFBD94322A7177B10046A6FB /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		AFBD94382A71840F0046A6FB /* AlamofireHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireHTTPClient.swift; sourceTree = "<group>"; };
 		AFBD943A2A73EBF30046A6FB /* AlamofireRequestLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequestLogger.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				AFBD94322A7177B10046A6FB /* HTTPClient.swift */,
 				AF0378622A69453900D2DBE2 /* NetworkRequest.swift */,
+				AFAA69612A77FAED003A6E97 /* NetworkConstants.swift */,
 				AFAA695F2A7702DD003A6E97 /* Alamofire */,
 				AF0B1CAF2A7527E500A6292B /* Requests */,
 				AFAA69582A767C4F003A6E97 /* Loggers */,
@@ -248,6 +251,7 @@
 				AFAA695B2A7687DB003A6E97 /* AlamofireRequest.swift in Sources */,
 				AFBD94392A71840F0046A6FB /* AlamofireHTTPClient.swift in Sources */,
 				AFAA69512A764DC4003A6E97 /* LoginRequest.swift in Sources */,
+				AFAA69622A77FAED003A6E97 /* NetworkConstants.swift in Sources */,
 				AFAA69572A7678BF003A6E97 /* TokenManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

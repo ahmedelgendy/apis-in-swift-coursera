@@ -12,7 +12,7 @@ struct GetProductsRequest {
 }
 
 extension GetProductsRequest: NetworkRequest {
-    var baseURL: String { "https://fakestoreapi.com" }
+    var baseURL: String { NetworkConstants.baseURL }
     var path: String { "/products" }
     var method: HTTPMethod { .get }
     var headers: [String : String] {

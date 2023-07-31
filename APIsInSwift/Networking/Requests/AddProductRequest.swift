@@ -18,7 +18,7 @@ struct AddProductRequest: NetworkRequest {
     
     let params: AddProductParams
 
-    var baseURL: String { "https://fakestoreapi.com" }
+    var baseURL: String { NetworkConstants.baseURL }
     var path: String { "/products" }
     var method: HTTPMethod { .post }
     var headers: [String : String] {

@@ -20,7 +20,7 @@ struct UpdateProductRequest {
 }
 
 extension UpdateProductRequest: NetworkRequest {
-    var baseURL: String { "https://fakestoreapi.com" }
+    var baseURL: String { NetworkConstants.baseURL }
     var path: String { "/products/\(params.id)" }
     var method: HTTPMethod { .put }
     var headers: [String : String] { [:] }

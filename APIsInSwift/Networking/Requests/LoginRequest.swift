@@ -13,7 +13,7 @@ struct LoginRequest {
 }
 
 extension LoginRequest: NetworkRequest {
-    var baseURL: String { "https://fakestoreapi.com" }
+    var baseURL: String { NetworkConstants.baseURL }
     var path: String { "/auth/login" }
     var method: HTTPMethod { .post }
     var headers: [String : String] { [:] }
