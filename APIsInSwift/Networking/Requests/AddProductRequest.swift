@@ -14,9 +14,11 @@ struct AddProductParams {
     let category: String
 }
 
-struct AddProductRequest: NetworkRequest {
-    
+struct AddProductRequest {
     let params: AddProductParams
+}
+
+extension AddProductRequest: NetworkRequest {
 
     var baseURL: String { NetworkConstants.baseURL }
     var path: String { "/products" }
