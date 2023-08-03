@@ -23,14 +23,15 @@ class ProductsRepository {
     
     func getProducts(limit: Int) async throws -> [RemoteProduct] {
         let request = GetProductsRequest(limit: limit)
-        let result = try await client.execute(request).get()
-        return try StoreAPIResponseMapper.map(response: result.1, data: result.0)
+        let result = await client.execute(request)
+        let (data, response) = try result.get()
+        return try StoreAPIResponseMapper.map(response: response, data: data)
     }
     
     func updateProduct(with params: UpdateProductParams) async throws -> UpdateProductResponse {
         let request = UpdateProductRequest(params: params)
-        let result = try await client.execute(request).get()
-        return try StoreAPIResponseMapper.map(response: result.1, data: result.0)
+        let result = await client.execute(request)
+        let (data, response) = try result.get()
+        return try StoreAPIResponseMapper.map(response: response, data: data)
     }
-    
 }
